@@ -1,0 +1,28 @@
+.contact-container {
+	height: 100px;
+	width: 82%;
+	float: right;
+	background-color: #d1d1d1;
+	text-align: center;
+
+	.contact-primary {
+		margin: 10px;
+		font: {
+			family: $primary-font;
+			size: 2em
+		}
+	};
+
+	.contact-secondary {
+		font: {
+			family: $secondary-font;
+			size: 1.1em
+		}
+	}
+}
+
+@media only screen and (max-width: 1365px) {
+    .contact-container {
+    	width: 100%;
+    }
+}

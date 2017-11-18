@@ -1,0 +1,92 @@
+.portfolio-exit {
+	font-size: .55em;
+	position: relative;
+	top: -.7em;
+	cursor: pointer
+}
+
+.portfolio-container {
+	margin-top: 2%;
+
+	.portfolio-project {
+		width: 100%;
+		min-height: 240px;
+		border-bottom: 1px solid darken($base, 10%);
+		margin-bottom: 2%;
+	};
+
+	.portfolio-image {
+   		margin-right: 2%;
+   		background-position: center;
+   		background-size: cover;
+   		background-repeat: no-repeat;
+	};
+
+	.portfolio-name {
+		font: {
+			family: $primary-font;
+			size: 1.9em
+		}
+	};
+
+	.portfolio-description {
+		margin-top: 5px;
+		font: {
+			family: $secondary-font;
+			size: 1em
+		}
+	};
+
+	.link {
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		background-position: center;
+   		background-size: contain;
+   		margin-top: 10px
+	};
+
+	.link-git {
+		background-image: url("../../images/github.png")
+	};
+
+	.link-live {
+		background-image: url("../../images/link.svg")
+	};
+
+	.portfolio-tag {
+		display: inline-block;
+		background-color: darken($base, 5%);
+		border-radius: 15px;
+		padding: 5px;
+		margin-top: 4px;
+		cursor: pointer;
+		font: {
+			family: $secondary-font;
+			size: .8em
+		}
+	}
+}
+
+@media only screen and (max-width: 700px) {
+    .portfolio-image {
+ 		width: 100%;
+ 		height: 30vh
+    }
+
+    .portfolio-name, .portfolio-description, .link, .portfolio-tag {
+    	margin-left: 10px;
+    }
+
+    .portfolio-tag {
+    	margin-bottom: 10px
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .portfolio-image {
+    	float: left;
+    	width: 30%;
+    	height: 230px;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Francois+One|Open+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="stylesheets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<title>Portfolio: Radosław Gładys</title>
+</head>
+<body>
+<header class="header">
+	<hgroup class="header-group">
+		<h1 class="header-primary">RADOSŁAW GŁADYS</h1>
+		<h2 class="header-secondary">WEB DEVELOPER</h2>
+	</hgroup>
+	<nav class="navigation">
+		<ul class="navigation-list">
+			<li class="navigation-list-item navigation-active" id="navigation-about" data="about">O mnie</li>
+			<li class="navigation-list-item" id="navigation-skills" data="skills">Umiejętności</li>
+			<li class="navigation-list-item" id="navigation-portfolio" data="portfolio">Portfolio</li>
+			<li class="navigation-list-item" id="navigation-contact" data="contact">Kontakt</li>
+		</ul>
+	</nav>
+</header>
+<section id="about">
+	<div class="about-picture"></div>
+	<p class="basic-container about-description">
+		Nazywam się Radosław Gładys i jestem 24-letnim programistą z ponad rocznym doświadczeniem. Największą wiedzę posiadam w zakresie JavaScriptu, zarówno po stronie klienta, jak i serwera. W mniejszym stopniu znam PHP i mySQL. Potrafię posługiwać się GITem, Gulpem, Webpackiem i NPMem oraz programami graficznymi, takimi jak Photoshop, czy Blender, których używam w swoich projektach. W tym momencie poszerzam wiedzę na temat programowania webowego oraz uczę się korzystać z biblioteki React.js. W przyszłości zamierzam uczyć się języka C#.  
+	</p>
+</section>
+<section id="skills">
+	<header>
+		<h1 class="basic-header">Co umiem</h1>
+	</header>
+	<div class="basic-container skills-container">
+		<section class="skills-skill">
+			<header>
+				<img class="skills-image" src="images/front.png" alt="front-end logo">
+				<h1 class="skill-header">Front-end</h1>
+			</header>
+			<ul class="skills-list">
+				<li class="skills-list-item">HTML</li>
+				<li class="skills-list-item">CSS</li>
+				<li class="skills-list-item">SASS</li>
+				<li class="skills-list-item">JavaScript</li>
+				<li class="skills-list-item">jQuery</li>
+				<li class="skills-list-item">Angular2</li>
+				<li class="skills-list-item">React.js</li>
+				<li class="skills-list-item">D3.js</li>
+				<li class="skills-list-item">Three.js</li>
+			</ul>
+		</section>
+		<section class="skills-skill">
+			<header>
+				<img class="skills-image" src="images/back.png" alt="back-end logo">
+				<h1 class="skill-header">Back-end</h1>
+			</header>
+			<ul class="skills-list">
+				<li class="skills-list-item">Node.js</li>
+				<li class="skills-list-item">Express</li>
+				<li class="skills-list-item">Socket.io</li>
+				<li class="skills-list-item">MongoDB</li>
+				<li class="skills-list-item">PHP</li>
+				<li class="skills-list-item">MySQL</li>
+			</ul>
+		</section>
+		<section class="skills-skill">
+			<header>
+				<img class="skills-image" src="images/tools.png" alt="skills logo">
+				<h1 class="skill-header">Narzędzia</h1>
+			</header>
+			<ul class="skills-list">
+				<li class="skills-list-item">NPM</li>
+				<li class="skills-list-item">GIT</li>
+				<li class="skills-list-item">Webpack</li>
+				<li class="skills-list-item">Gulp</li>
+			</ul>
+		</section>
+		<section class="skills-skill">
+			<header>
+				<img class="skills-image" src="images/other.png" alt="other skills logo">
+				<h1 class="skill-header">Inne</h1>
+			</header>
+			<ul class="skills-list">
+				<li class="skills-list-item">Photoshop</li>
+				<li class="skills-list-item">Gimp</li>
+				<li class="skills-list-item">Blender</li>
+			</ul>
+		</section>
+	</div>
+</section>
+<section id="portfolio">
+	<header>
+		<h1 id="portfolio-search" class="basic-header"></h1>
+	</header>
+	<div class="basic-container portfolio-container"></div>
+</section>
+<section id="contact">
+	<div class="contact-container">
+		<h1 class="contact-primary">Kontakt:</h1>
+		<h2 class="contact-secondary">radoslawgladys1@gmail.com</h2>
+	</div>
+</section>
+<script src="js/main_es5.js"></script>
+</body>
+</html>

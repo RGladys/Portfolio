@@ -1,0 +1,47 @@
+//Colors
+$base: #f1f2f6;
+
+//Fonts
+$primary-font: Francois One, Tahoma, Sans-serif;
+$secondary-font: Open Sans, Sans-serif;
+
+//Elements
+body {
+	background: $base
+}
+
+.basic-container {
+	width: 60%;
+	margin-left: 25%;
+}
+
+.basic-header {
+		display: block;
+		margin: 1% 0 0 25.5%;
+		font: {
+			family: $primary-font;
+			size: 2em
+		}
+}
+
+@media only screen and (max-width: 1365px) {
+    .basic-container {
+		width: 90%;
+		margin: auto
+	}
+	
+	.basic-header {
+			margin: 1% 0 0 7.5%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+     .basic-container {
+		width: 100%;
+		margin: auto
+	}
+	
+	.basic-header {
+			margin: 1% 0 0 3%;
+	}
+}
